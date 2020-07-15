@@ -1,3 +1,12 @@
+################################################################################################################
+##
+##  Description..: US Bike Share Data Analysis program
+##  Author.......: Ben Saragozza
+##  Date.........: 15th July 2020
+##  GitHub Repo..: https://github.com/MrSaRaZZ/pdsnd_github
+##
+################################################################################################################
+
 import time
 import datetime
 import pandas as pd
