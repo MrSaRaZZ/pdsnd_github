@@ -5,7 +5,14 @@
 US Bikeshare Data Analysis
 
 ### Description
-Describe what your project is about and what it does
+The US Bikeshare Data Analysis project can be used to obtain bike share details for three major cities in the US:
+    Chicago, New York City and Washington. 
+
+Some of the details we are able to obtain are as follows:
+    The Most Frequent Times of Travel
+    The Most Popular Stations and Trip
+    Trip duration
+    User Stats
 
 ### Files used
 Include the files used
