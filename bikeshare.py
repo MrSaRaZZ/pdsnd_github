@@ -64,11 +64,10 @@ def get_filters():
         except Exception as e:
             print("An exception has occured: {}".format(e))
 
-    print('-'*40)
-    
-    print("You have entered the following filters:")
+    print('-'*35)
+    print("We are using the following filters:")
     print('\nCity...: {}\nMonth..: {}\nDay....: {}\n'.format(city.title(), month.title(), day.title()))
-    print("-"*40)
+    print("-"*35)
     
     return city, month, day
 
@@ -130,7 +129,7 @@ def time_stats(df):
     df['Month'] = df['Start Time'].dt.month_name()
     popular_month = df['Month'].value_counts().nlargest(1)
     print("Most frequent travel month is {}, with {} instances.".format(popular_month.index[0], popular_month.iloc[0]))
-
+    
     # display the most common day of week
     df['Day Of Week'] = df['Start Time'].dt.day_name()
     popular_day = df['Day Of Week'].value_counts().nlargest(1)
