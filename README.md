@@ -15,8 +15,11 @@ Some of the details we are able to obtain are as follows:
     User Stats
 
 ### Files used
-Include the files used
+For this program to run you will need the following data files in CSV format:
+    chicago.csv
+    new_york_city.csv
+    washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Original Project Repository: 
+    https://github.com/udacity/pdsnd_github
