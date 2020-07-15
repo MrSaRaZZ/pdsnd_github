@@ -163,7 +163,7 @@ def station_stats(df):
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
 
-    top_x = 3 # Change for top x number i.e. 5 for top 5
+    top_x = 5 # Change for top x number i.e. 5 for top 5
 
     # display most commonly used start station
     popular_start = df['Start Station'].value_counts().nlargest(top_x)
