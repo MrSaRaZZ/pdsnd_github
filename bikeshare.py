@@ -268,13 +268,14 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
-        # Provide user with the option to view 5 rows of data at a time from the data frame.
+        # Provide user with the option to view X rows of data at a time from the data frame.
+        show_x_rows = 10
         show_count = 1
-        show_data = input("\nWould you like to see 5 rows of raw data? Enter yes or no.\n")
+        show_data = input("\nWould you like to see {} rows of raw data? Enter yes or no.\n".format(show_x_rows))
         while True:
             if show_data.lower() == "yes":
-                print(df.head(show_count * 5))
-                show_data = input("\nWould you like to add another 5 rows? Enter yes or no.\n")
+                print(df.head(show_count * show_x_rows))
+                show_data = input("\nWould you like to add another {} rows? Enter yes or no.\n".format(show_x_rows))
                 show_count += 1
                 continue
             else:
